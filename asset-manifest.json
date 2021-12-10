@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/music-concert/static/css/main.61c406bb.chunk.css",
+    "main.css": "/music-concert/static/css/main.a23879fd.chunk.css",
     "main.js": "/music-concert/static/js/main.5d2bd7a3.chunk.js",
     "main.js.map": "/music-concert/static/js/main.5d2bd7a3.chunk.js.map",
     "runtime-main.js": "/music-concert/static/js/runtime-main.451bb0c4.js",
@@ -10,7 +10,7 @@
     "static/js/2.28f10c4d.chunk.js.map": "/music-concert/static/js/2.28f10c4d.chunk.js.map",
     "index.html": "/music-concert/index.html",
     "static/css/2.968c474a.chunk.css.map": "/music-concert/static/css/2.968c474a.chunk.css.map",
-    "static/css/main.61c406bb.chunk.css.map": "/music-concert/static/css/main.61c406bb.chunk.css.map",
+    "static/css/main.a23879fd.chunk.css.map": "/music-concert/static/css/main.a23879fd.chunk.css.map",
     "static/js/2.28f10c4d.chunk.js.LICENSE.txt": "/music-concert/static/js/2.28f10c4d.chunk.js.LICENSE.txt",
     "static/media/Contact.scss": "/music-concert/static/media/Raleway-Regular.9ade142e.ttf",
     "static/media/concert1.c308a29a.png": "/music-concert/static/media/concert1.c308a29a.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.451bb0c4.js",
     "static/css/2.968c474a.chunk.css",
     "static/js/2.28f10c4d.chunk.js",
-    "static/css/main.61c406bb.chunk.css",
+    "static/css/main.a23879fd.chunk.css",
     "static/js/main.5d2bd7a3.chunk.js"
   ]
 }
