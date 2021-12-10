@@ -29,12 +29,6 @@
       align-items: center;
     }
   }
-
-  &__confetti {
-    position: absolute;
-    right: 1260px;
-    top: 340px;
-  }
   
   &__title {
     font-size: $titleSize;
@@ -81,5 +75,12 @@
   &__image {
     max-width: 530px;
     width: 100%;
+  }
+
+  
+  &__confetti {
+    position: absolute;
+    right: 1200px;
+    top: 340px;
   }
 }

@@ -107,56 +107,22 @@
       width: 100%;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //   &--title{
-  //     color: $mainBlackColor;
-  //   }
-  // }
-
-  // &__text {
-  //    max-width: 180px;
-  // }
-
-  // &__photos {
-  //   max-width: 50px;
-  // }
-
-
-
-
-
-
-
-
   
   &__round {
     position: absolute;
     top: 650px;
-    left: 108px;
+    left: 75px;
   }
 
   &__zigzag {
     position: absolute;
-    right: 80px;
+    right: 50px;
     bottom: 270px;
   }
 
   &__red {
     position: absolute;
-    right: 80px;
+    right: 50px;
     bottom: 200px;
   }
 }
