@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/music-concert/static/css/main.61c406bb.chunk.css",
+    "main.js": "/music-concert/static/js/main.5d2bd7a3.chunk.js",
+    "main.js.map": "/music-concert/static/js/main.5d2bd7a3.chunk.js.map",
+    "runtime-main.js": "/music-concert/static/js/runtime-main.451bb0c4.js",
+    "runtime-main.js.map": "/music-concert/static/js/runtime-main.451bb0c4.js.map",
+    "static/css/2.968c474a.chunk.css": "/music-concert/static/css/2.968c474a.chunk.css",
+    "static/js/2.28f10c4d.chunk.js": "/music-concert/static/js/2.28f10c4d.chunk.js",
+    "static/js/2.28f10c4d.chunk.js.map": "/music-concert/static/js/2.28f10c4d.chunk.js.map",
+    "index.html": "/music-concert/index.html",
+    "static/css/2.968c474a.chunk.css.map": "/music-concert/static/css/2.968c474a.chunk.css.map",
+    "static/css/main.61c406bb.chunk.css.map": "/music-concert/static/css/main.61c406bb.chunk.css.map",
+    "static/js/2.28f10c4d.chunk.js.LICENSE.txt": "/music-concert/static/js/2.28f10c4d.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/music-concert/static/media/Raleway-Regular.9ade142e.ttf",
+    "static/media/concert1.c308a29a.png": "/music-concert/static/media/concert1.c308a29a.png",
+    "static/media/concert2.a1d79d04.png": "/music-concert/static/media/concert2.a1d79d04.png",
+    "static/media/concert3.633de2f7.png": "/music-concert/static/media/concert3.633de2f7.png",
+    "static/media/concert4.e2307e88.png": "/music-concert/static/media/concert4.e2307e88.png",
+    "static/media/concert5.51d3c9b1.png": "/music-concert/static/media/concert5.51d3c9b1.png",
+    "static/media/confetti.0a044314.png": "/music-concert/static/media/confetti.0a044314.png",
+    "static/media/ellie.d85193c7.png": "/music-concert/static/media/ellie.d85193c7.png",
+    "static/media/johny.dca0218b.png": "/music-concert/static/media/johny.dca0218b.png",
+    "static/media/Header.scss": "/music-concert/static/media/mainImg.7fad7e81.png",
+    "static/media/music.adbaed15.png": "/music-concert/static/media/music.adbaed15.png",
+    "static/media/myne.451d655e.png": "/music-concert/static/media/myne.451d655e.png",
+    "static/media/numbers.d3e7801b.png": "/music-concert/static/media/numbers.d3e7801b.png",
+    "static/media/singers.118b4dc0.png": "/music-concert/static/media/singers.118b4dc0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.451bb0c4.js",
+    "static/css/2.968c474a.chunk.css",
+    "static/js/2.28f10c4d.chunk.js",
+    "static/css/main.61c406bb.chunk.css",
+    "static/js/main.5d2bd7a3.chunk.js"
+  ]
+}
