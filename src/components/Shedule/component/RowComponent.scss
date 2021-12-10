@@ -1,0 +1,51 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+@import '../../../fonts.scss';
+
+.row {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  border-bottom: 1px solid $lightGrayColor;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @include onPhone {
+    padding: 20px;
+  }
+
+  &__time {
+    max-width: 230px;
+    width: 100%;
+    font-size: $smallSize;
+    color: $mainBlackColor;
+    font-family: 'Raleway-Regular', sans-serif;
+  }
+
+  &__content {
+    max-width: 370px;
+    width: 100%;
+    font-size: $smallSize;
+    color: $mainBlackColor;
+    font-weight: bold;
+    font-family: 'Regular-Bold', sans-serif;
+  }
+
+  &__speakers {
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__status {
+    max-width: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

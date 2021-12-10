@@ -1,0 +1,54 @@
+@import '../utils/mixins.scss';
+
+.price {
+  max-width: 1920px;
+  width: 100%;
+  margin-bottom: 240px;
+  position: relative;
+
+  @include onPhone {
+    margin-bottom: 120px;
+  }
+  
+  &__title {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+  }
+
+  &__blocks {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    @include onPhone {
+      flex-direction: column;
+    }
+  }
+
+  
+  &__black {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+   }
+ 
+   &__round {
+     position: absolute;
+     top: 200px;
+     left: 250px;
+   }
+ 
+   &__triangle {
+     position: absolute;
+     right: 280px;
+     top: -100px;
+   }
+}

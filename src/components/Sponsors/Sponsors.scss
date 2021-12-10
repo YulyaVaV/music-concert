@@ -1,0 +1,96 @@
+@import '../utils/vars.scss';
+@import '../utils/mixins.scss';
+
+.sponsors {
+  max-width: 1920px;
+  margin-bottom: 220px;
+  position: relative;
+
+  @include onPhone {
+    margin-bottom: 150px;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bold;
+    font-size: $titleSize;
+  }
+
+  &__images {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    @include onTablet {
+      max-width: 600px;
+      gap: 50px;
+      padding: 10px;
+    }
+
+    @include onPhone {
+      max-width: 300px;
+      gap: 30px;
+      padding: 10px;
+    }
+  }
+
+  &__img {
+    margin-right: 130px;
+    margin-bottom: 63px;
+
+    @include onTablet {
+      margin-right: 0;
+      max-width: 100px;
+      height: auto;
+    }
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+
+    &:nth-child(8) {
+      margin-right: 0;
+    }
+  }
+
+  &__button {
+    background-color: $mainBlueColor;
+    box-shadow: $blueShadowColor;
+    border-radius: 8px;
+    width: 225px;
+    height: 56px;
+    color: $whiteColor;
+    font-weight: bold;
+    font-size: $smallSize;
+    font-family: 'Montserrat-Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: all 0.4s;
+
+    &:hover {
+      background-color: $whiteColor;
+      color: $mainBlueColor;
+    }
+  }
+
+
+  &__pink {
+    position: absolute;
+    right: 70px;
+    top: 110px;
+  }
+
+  &__blue {
+    position: absolute;
+    top: 50px;
+  }
+}

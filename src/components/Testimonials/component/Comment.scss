@@ -1,0 +1,55 @@
+@import '../../utils/vars.scss';
+@import '../../../fonts.scss';
+
+.comment {
+
+&__content {
+  max-width: 600px;
+  padding: 30px 30px 80px;
+  background-color: $CommentBgColor;
+}
+
+&__text {
+  color: $mainBlackColor;
+  opacity: $opacityCoef;
+  font-size: $smallSize;
+  font-family: 'Raleway', sans-serif;
+}
+
+&__name {
+  font-size: 20px;
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  color: $mainBlackColor;
+}
+
+&__email {
+  color: $mainBlueColor;
+  font-size: $smallSize;
+  font-family: 'Raleway', sans-serif;
+}
+
+&__quotes {
+  &--open {
+    display: flex;
+    justify-content: start;
+  }
+
+  &--close {
+    display: flex;
+    float: right;
+  }
+}
+
+  &__image {
+    padding-bottom: 20px;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__name {
+    padding-bottom: 5px;
+  }
+}

@@ -1,0 +1,86 @@
+@import '../utils/vars.scss';
+@import '../utils/mixins.scss';
+
+.footer {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  background-color: $mainBlackColor;
+  position: relative;
+
+  @include onTablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo {
+    padding: 40px 0 50px 375px;
+
+    @include onDesktop {
+      padding-left: 180px;
+    }
+
+    @include onTablet {
+      padding-left: 0;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+
+    @include onTablet {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+
+  &__nav {
+    padding: 0 280px 30px 370px;
+    display: flex;
+    gap: 30px;
+
+    @include onDesktop {
+      padding-left: 180px;
+    }
+
+    @include onTablet {
+      padding: 0 10px 10px 10px;
+      gap: 15px;
+    }
+  }
+
+  &__link {
+    color: $whiteColor;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 30px;
+    padding-right: 125px;
+
+    @include onTablet {
+      padding-right: 0;
+    }
+  }
+
+  &__site {
+    color: $whiteColor;
+    opacity: 0.3;
+    font-size: 12px;
+    font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+
+    @include onPhone {
+      padding-bottom: 20px;
+    }
+
+    @include onTablet {
+      padding-bottom: 20px;
+    }
+  }
+}

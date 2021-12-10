@@ -1,0 +1,162 @@
+@import '../utils/vars.scss';
+@import '../../fonts.scss';
+
+.shedule {
+  max-width: 1920;
+  background: $bgColorShedule;
+  margin-bottom: 220px;
+  position: relative;
+
+  &__title {
+    padding: 160px 0 60px;
+		font-family: 'Montserrat-Bold', sans-serif;
+		font-size: $titleSize;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  &__wrap {
+    display: flex;
+    padding-bottom: 40px ;
+    max-width: 1170px;
+    width: 100%;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  &__left {
+    width: 370px;
+    border-bottom: 5px solid $mainBlueColor;
+  }
+
+  &__medium {
+    width: 370px;
+    border-bottom: 5px solid $afterColor;
+  }
+
+  &__right {
+    width: 370px;
+    border-bottom: 5px solid $afterColor;
+  }
+
+  &__blue {
+    color: $mainBlueColor;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    padding-bottom: 5px;
+    font-size: $mediumSize;
+  }
+
+  &__day {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    padding-bottom: 5px;
+    font-size: $mediumSize;
+    color: $mainBlackColor;
+    opacity: 0.5;
+  }
+  
+  &__data {
+    padding-bottom: 20px;
+    font-size: $smallSize;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: $mainBlackColor;
+    opacity: 0.3;
+
+    &--blue {
+      color: $mainBlueColor;
+      font-size: $smallSize;
+      font-weight: bold;
+      font-family: 'Montserrat-Bold', sans-serif;
+    }
+  }
+
+
+
+
+  &__table {
+    max-width: 1170px;
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid $lightGrayColor;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  &__header {
+    width: 100%;
+    max-width: 1170px;
+    background-color: $afterColor;
+    height: 120px;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+
+    &--title {
+      color: $mainBlackColor;
+      font-family: 'Regular-Bold', sans-serif;
+      font-size: $mediumSize;
+    }
+  }
+
+  &__wrapper {
+    max-width: 230px;
+    width: 100%;
+
+    &--second {
+      max-width: 370px;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //   &--title{
+  //     color: $mainBlackColor;
+  //   }
+  // }
+
+  // &__text {
+  //    max-width: 180px;
+  // }
+
+  // &__photos {
+  //   max-width: 50px;
+  // }
+
+
+
+
+
+
+
+
+  
+  &__round {
+    position: absolute;
+    top: 650px;
+    left: 108px;
+  }
+
+  &__zigzag {
+    position: absolute;
+    right: 80px;
+    bottom: 270px;
+  }
+
+  &__red {
+    position: absolute;
+    right: 80px;
+    bottom: 200px;
+  }
+}

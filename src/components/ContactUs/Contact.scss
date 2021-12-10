@@ -1,0 +1,210 @@
+@import '../utils/vars.scss';
+@import '../utils/mixins.scss';
+@import '../../fonts.scss';
+
+.contact {
+  max-width: 1720px;
+  display: flex;
+  gap: 130px;
+  align-items: center;
+
+  @include onPhone {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  @include onTablet {
+    gap: 60px;
+  }
+
+  &__block1 {
+    max-width: 845px;
+    height: 662px;
+    width: 100%;
+    background-color: $mainBlueColor;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 0 0 80px;
+    color: $whiteColor;
+
+    @include onTablet {
+      padding: 120px 30px;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: $titleSize;
+    font-family: 'Montserrat-Bold', sans-serif;
+    padding-bottom: 12px;
+  }
+
+  &__subtitle {
+    opacity: $opacityCoef;
+    font-size: $mediumSize;
+    font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+    padding-bottom: 81px;
+    font-weight: normal;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  &__img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: $smallSize;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: $whiteColor;
+  }
+
+  &__shape {
+    float: right;
+  }
+
+
+
+
+  &__block2 {
+    position: relative;
+    max-width: 1075px;
+    width: 100%;
+
+    @include onPhone {
+      padding-left: 40px;
+    }
+  }
+
+  &__caption {
+    font-weight: bold;
+    font-size: $mediumSize;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    padding-bottom: 40px;
+  }
+
+  &__name {
+    max-width: 567px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid $lightGrayColor;
+    padding: 8px 0 5px 0;
+    outline: none;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    &:focus {
+      border-bottom: 1px solid $mainBlueColor;
+      color: $mainBlueColor;
+    }
+
+    &::placeholder {
+      font-size: $smallSize;
+      color: $mainBlackColor;
+      font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+    }
+
+    &--title {
+      font-weight: bold;
+      font-size: 12px;
+      font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+      color: $mainBlackColor;
+      opacity: $opacityCoef;
+    }
+  }
+
+  &__email {
+    max-width: 567px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid $lightGrayColor;
+    padding: 8px 0 5px 0;
+    outline: none;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    &:focus {
+      border-bottom: 1px solid $mainBlueColor;
+    }
+
+    &::placeholder {
+      font-size: $smallSize;
+      color: $mainBlackColor;
+      font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+    }
+  }
+
+  &__message {
+    max-width: 567px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid $lightGrayColor;
+    resize: none;
+    outline: none;
+    padding: 8px 0 50px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow : hidden;
+
+    &:focus {
+      border-bottom: 1px solid $mainBlueColor;
+    }
+
+    @include onPhone {
+      padding-bottom: 110px;
+    }
+
+    @include onTablet{
+      padding-bottom: 50px;
+    }
+    
+    &::placeholder {
+      font-size: $smallSize;
+      color: $mainBlackColor;
+      font-family: 'Raleway-Italic-VariableFont_wght', sans-serif;
+    }
+  }
+
+  &__button {
+    width: 570px;
+    min-height: 56px;
+    background-color: $mainBlueColor;
+    border: 1px solid $mainBlueColor;
+    color: $whiteColor;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: 40px;
+
+    @include onPhone {
+      width: 200px;
+    }
+
+    &:hover {
+      color: $mainBlueColor;
+      background-color: $whiteColor;
+      border: 1px solid $mainBlueColor;
+      box-shadow: $blueShadowColor;
+    }
+  }
+
+  &__shap {
+    position: absolute;
+    right: -40px;
+    top: 490px; 
+  }
+}

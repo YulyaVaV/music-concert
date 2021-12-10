@@ -1,0 +1,37 @@
+@import '../utils/vars.scss';
+@import '../utils/mixins.scss';
+
+.instagram {
+  position: relative;
+  height: 770px;
+  background: $bgColorInsta;
+  margin-bottom: 220px;
+
+  &__icon {
+    position: absolute;
+    left: 480px;
+
+    @include onPhone {
+      display: none;
+    }
+  }
+
+  &__title {
+    padding: 170px 0  0 375px;
+    padding-bottom: 60px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: bold;
+    font-size: $titleSize;
+
+    @include onPhone {
+      padding: 80px 0 20px 20px;
+    }
+  }
+
+  &__blocks {
+    display: flex;
+    max-width: 1970px;
+    width: 100%;
+    gap: 30px;
+  }
+}

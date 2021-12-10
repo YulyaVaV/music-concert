@@ -1,0 +1,55 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.posts {
+  max-width: 370px;
+  width: 100%;
+
+  &__active {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0 8px 0;
+    
+
+    @include onPhone {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  &__activ {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: $smallSize;
+  }
+
+  &__title {
+    padding-bottom: 8px;
+    font-size: $smallSize;
+    color: $mainBlackColor;
+    font-weight: normal;
+    font-family: 'Raleway-VariableFont_wght', sans-serif;
+
+    @include onPhone {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  &__tags {
+    color: $mainBlackColor;
+    font-size: $smallSize;
+    opacity: 0.5;
+    font-family: 'Raleway-VariableFont_wght', sans-serif;
+
+    @include onPhone {
+      padding: 10px;
+      display: flex;
+      text-align: center;
+    }
+  }
+}

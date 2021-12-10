@@ -1,0 +1,25 @@
+@import '../../utils/vars.scss';
+@import '../../../fonts.scss';
+
+.speakers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__name {
+    font-size: $smallSize;
+    color: $mainBlackColor;
+    font-weight: bold;
+    font-family: 'Regular-Bold', sans-serif;
+  }
+
+  &__booth {
+    font-size: $smallSize;
+    opacity: 0.5;
+    color: $mainBlackColor;
+  }
+
+  &__code {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+@import '../../../fonts.scss';
+
+.variables {
+  &__block {
+    width: 370px;
+    height: 326px;
+    border-radius: 24px;
+    padding: 110px 120px 0 60px;
+
+    @include onPhone {
+      width: 250px;
+      height: 280px;
+      padding: 60px 15px 0 15px;
+    }
+  }
+
+  &__image {
+    padding-bottom: 30px;
+  }
+
+  &__title {
+    padding-bottom: 20px;
+    font-size: $mediumSize;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+
+  }
+
+  &__subtitle {
+    font-size: $smallSize;
+    font-family: 'Raleway-VariableFont_wght', sans-serif;
+    opacity: $opacityCoef;
+  }
+}
