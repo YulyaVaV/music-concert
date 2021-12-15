@@ -1,4 +1,5 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="guitar" viewBox="0 0 40 40">
 <g clip-path="url(#clip0_893_972)">
 <path d="M23.8838 12.7817L25.5209 11.1446L28.9022 14.5259L27.2651 16.163L23.8838 12.7817Z" fill="#C00096"/>
 <path d="M20.6094 16.056L22.2465 14.4189L25.6278 17.8003L23.9907 19.4374L20.6094 16.056Z" fill="#C00096"/>
@@ -10,4 +11,5 @@
 <rect width="40" height="40" fill="white"/>
 </clipPath>
 </defs>
+</symbol>
 </svg>
