@@ -1,8 +1,7 @@
 ## Musik Concert
 
-- [DEMO LINK HERE](https://yulyavav.github.io/spotify/)
+- [DEMO LINK HERE](https://yulyavav.github.io/music-concert/)
 - [Musik Concert FIGMA](https://www.figma.com/file/WkSPOTsyQAUQzYue0SdjC5/Musik-Concert-Landing-Page-(Community)?node-id=893%3A0)
-----------------------------------
 
 ------------------------------------------
 React, HTML, SCSS, Flex-box, BEM, Swiper.js, AOS, Cross-browser semantic and adaptive layout
